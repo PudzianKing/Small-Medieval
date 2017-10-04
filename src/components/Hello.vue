@@ -1,53 +1,45 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank">Twitter</a></li>
-      <br>
-      <li><a href="http://vuejs-templates.github.io/webpack/" target="_blank">Docs for This Template</a></li>
-    </ul>
-    <h2>Ecosystem</h2>
-    <ul>
-      <li><a href="http://router.vuejs.org/" target="_blank">vue-router</a></li>
-      <li><a href="http://vuex.vuejs.org/" target="_blank">vuex</a></li>
-      <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
-    </ul>
+    <div class="container" style="color: #fff;">
+      <div class="row" style="margin-bottom: 50px">
+        <div class="col-lg-4" style="position: relative; left: 0; top: 0; text-align: center;">
+          <img src="../assets/g5548.png" alt="tarcza" style="width: 100%; position: relative; left: 0; top: 0;"/>
+          <div class="caption post-content" style="position: absolute; left: 20%; top: 10%; margin-right: 20%">
+            <h2>O Firmie</h2>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
+              ut fermentum massa justo sit amet risus.</p>
+            <p class="btn btn-default"><router-link to="/about">Więcej</router-link></p>
+          </div>
+        </div>
+
+        <div class="col-lg-4" style="position: relative; left: 0; top: 0; text-align: center;">
+          <img src="../assets/g5548.png" alt="tarcza" style="width: 100%; position: relative; left: 0; top: 0;"/>
+          <div class="caption post-content" style="position: absolute; left: 20%; top: 10%; margin-right: 20%">
+            <h2>Oferta</h2>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
+              ut fermentum massa justo sit amet risus.</p>
+            <p class="btn btn-default"><router-link to="/products">Więcej</router-link></p>
+          </div>
+        </div>
+
+        <div class="col-lg-4" style="position: relative; left: 0; top: 0; text-align: center;">
+          <img src="../assets/g5548.png" alt="tarcza" style="width: 100%; position: relative; left: 0; top: 0;"/>
+          <div class="caption post-content" style="position: absolute; left: 20%; top: 10%; margin-right: 20%">
+            <h2>O Nas</h2>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
+              ut fermentum massa justo sit amet risus.</p>
+            <p class="btn btn-default"><router-link to="/contact">Więcej</router-link></p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'hello',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
-  }
-}
+
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h1, h2 {
-  font-weight: normal;
-}
+<style>
 
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-a {
-  color: #42b983;
-}
 </style>
